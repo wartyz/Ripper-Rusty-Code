@@ -1,0 +1,15 @@
+[package]
+    name = "ripper"
+    version = "0.1.0"
+    authors = ["zwenderk <zwenderk@hotmail.com>"]
+    edition = "2018"
+
+[dependencies]
+    lazy_static = "1.0"
+    log = "0.4.6"
+    simple_logger = "1.0.1"
+
+[dependencies.sdl2]
+    version = "0.31"
+    default-features = false
+    features = ["ttf","image","gfx","mixer"]
