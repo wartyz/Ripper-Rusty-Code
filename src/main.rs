@@ -226,7 +226,6 @@ fn run(mode: ToolMode, png: &Path) {
                 _cy += 17;
             }
 
-            //println!("lazy_static! {{");
             println!("static SPRITE_BITMAPS: [[u8; SPRITE_WIDTH*SPRITE_HEIGHT]; SPRITE_MAX] = [");
             let mut sprite_number = 0;
             for spr_data in sprites.iter() {
@@ -248,7 +247,6 @@ fn run(mode: ToolMode, png: &Path) {
                 sprite_number += 1;
             }
             println!("];");
-            //println!("}}");
         }
     }
 
