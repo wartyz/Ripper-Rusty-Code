@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="452d7512-c70d-4951-a69b-2943f089b6f8" name="Default Changelist" comment="" />
+    <list default="true" id="452d7512-c70d-4951-a69b-2943f089b6f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +52,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="228" selection-start-line="228" selection-end-line="228" />
+            <state>
+              <folding>
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kk">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -68,9 +79,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2075" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2054" />
+    <option name="y" value="57" />
     <option name="width" value="1446" />
     <option name="height" value="1066" />
   </component>
@@ -90,6 +101,10 @@
               <item name="ripper" type="b2602c69:ProjectViewProjectNode" />
               <item name="ripper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ripper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -124,7 +139,7 @@
   <component name="RunManager">
     <configuration name="Run ripper" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package ripper --bin ripper tile assets/donkey-kong-tiles.png &gt; ttj" />
+      <option name="command" value="run --package ripper --bin ripper map assets/intro-tilemap.png &gt; kk" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -156,23 +171,30 @@
       <workItem from="1554209978148" duration="588000" />
       <workItem from="1554211708930" duration="591000" />
       <workItem from="1554280900400" duration="589000" />
-      <workItem from="1554287040417" duration="392000" />
+      <workItem from="1554287040417" duration="590000" />
+      <workItem from="1554288442596" duration="42000" />
+      <workItem from="1554288526598" duration="1209000" />
+      <workItem from="1554370484922" duration="782000" />
+      <workItem from="1554455566452" duration="597000" />
+      <workItem from="1554467387712" duration="596000" />
+      <workItem from="1554479703010" duration="3313000" />
+      <workItem from="1554547140360" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24915000" />
+    <option name="totallyTimeSpent" value="32802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2075" y="76" width="1446" height="1066" extended-state="1" />
+    <frame x="2054" y="57" width="1446" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13131313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14357865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40836012" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24115756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -181,7 +203,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23472668" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23472668" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -223,10 +245,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        <state>
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
